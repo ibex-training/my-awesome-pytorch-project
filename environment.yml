@@ -1,0 +1,45 @@
+name: pytorch-env
+
+channels:
+  - pytorch
+  - intel
+  - conda-forge
+  - defaults
+
+dependencies:
+  - bokeh
+  - gh
+  - git
+  - holoviews
+  - hvplot
+  - captum
+  - cudatoolkit=10.2
+  - ipywidgets
+  - jupyterlab<3.0
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyter-lsp-python
+  - matplotlib=3.1
+  - matplotlib-base=3.1
+  - nodejs
+  - numba
+  - numpy
+  - optuna
+  - pandas
+  - panel
+  - pip
+  - pip:
+    - -r file:requirements.txt
+  - pyarrow
+  - python=3.7
+  - python-language-server
+  - pytorch=1.8
+  - pytorch-lightning
+  - scikit-learn
+  - scipy
+  - tensorboard
+  - torchaudio
+  - torchtext
+  - torchvision
+  - wandb
+  - xeus-python
